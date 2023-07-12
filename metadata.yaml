@@ -1,0 +1,20 @@
+composer:
+  last: Caldara
+  first: Antonio
+title: Missa
+subtitle: Kyrie and Gloria
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (tutti), 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-LEb
+    shelfmark: Go. S. 264
+    date: 1790–1800
+    rism: 220040119
+    url: https://digital.slub-dresden.de/id476249058
+    license: CC BY-SA 4.0
+    principal: true
+imslp:
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
