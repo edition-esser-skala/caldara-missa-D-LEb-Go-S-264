@@ -910,5 +910,5 @@ CumSanctoBassFigures = \figuremode {
   r4 <6> <7> <6>
   <7>4 <6-> <7->4. <_!>8
   r <6>2 q4 q8
-  <6 5>1 %299 finis
+  \bc <[6 5 _]>1 %299 finis
 }
