@@ -66,6 +66,6 @@ GloriaClarinoI = {
     e f e d c4 r2
     R1
     r4 e d2
-    c1\fermata \bar "|." %64 finis
+    c1\fermata \bar "||" %64 finis
   }
 }

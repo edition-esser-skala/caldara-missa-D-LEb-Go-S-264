@@ -56,6 +56,6 @@ GloriaTimpani = {
     c4 r r2
     R1
     r4 c g4. g8
-    c1\fermata \bar "|." %64 finis
+    c1\fermata \bar "||" %64 finis
   }
 }

@@ -149,7 +149,7 @@ GloriaTenore = {
     e4 e a,4. a8
     h4. h8 c4. d8
     h4 c8 c c4 h
-    c1\fermata \bar "|." %64 finis
+    c1\fermata \bar "||" %64 finis
   }
 }
 

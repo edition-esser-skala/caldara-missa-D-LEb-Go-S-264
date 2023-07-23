@@ -212,7 +212,7 @@ GloriaAlto = {
     g4 g f4. f8
     d4 g e a
     d, e8 g g4. g8
-    g1\fermata \bar "|." %64 finis
+    g1\fermata \bar "||" %64 finis
   }
 }
 
@@ -236,4 +236,142 @@ GloriaAltoLyrics = \lyricmode {
   Pa -- ter, De -- us
   Pa -- ter o -- mni -- po --
   tens. %64 finis
+}
+
+DomineAltoTenore = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/8 \autoBeamOff \tempoDomine
+      \set Score.currentBarNumber = #65
+    R4.*17 %81
+    \mvTr c8\pE^\markup \remark "A solo" f a
+    g16.([ f32)] g4
+    c,8 g' b
+    a16.([ g32)] a4 %85
+    r8 g a
+    b8. c16 a8~
+    a g16([ a)] f8
+    e8.([ d16)] c8
+    R4.*2 %91
+    r8 e c
+    a'[ f16 g a f]
+    g8[ c, g']~
+    g[ f16 e f d] %95
+    e4.~
+    e8[ f16 e d c]
+    h8 g'8. f16
+    e8([ a)] g16([ f)]
+    e8( d4) %100
+    c r8
+    R4.*12 %113
+    c8 e g
+    b!16.([ a32)] b8 r %115
+    g16 f e8 f16([ g)]
+    a8. a16 g8
+    R4.*2
+    r8 f f %120
+    es16 d es4
+    c'8 es,4
+    es8 d f~
+    f[ e!16. f32 g8]~
+    g[ f16. g32 a8]~ %125
+    a[ g16. a32 b8]~
+    b[ a] g
+    f( g4)
+    f r8
+    R4.*8 %137
+    \clef "treble_8" d8^\markup \remark "T solo" f16([ e)] d8
+    e a, e'~
+    e[ d16 cis] d8 %140
+    d d4
+    d8 cis r
+    R4.*8 %150
+    e8 cis a
+    d16[ c! b! a g f]
+    \once \tieDashed g4.~
+    g16[ d' c b a g]
+    a[ es' d c b a] %155
+    b8 a4
+    g r8
+    R4.*5 %162
+    d'8 d16([ c!)] b!([ a)]
+    b16.([ a32)] b4
+    c8. b16 a g %165
+    a16.([ g32)] a8 r
+    R4.
+    r8 r f'~
+    f es d
+    es[ d cis] %170
+    d8[ f16. e32 d8]
+    b![ a gis]
+    a8.[ g16 f e]
+    f8 e4
+    d r8 %175
+    R4.*7 %182
+    R4.\fermata \bar "|." %183 finis
+  }
+}
+
+DomineAltoTenoreLyrics = \lyricmode {
+  Do -- mi -- ne %82
+  \xE Fi -- li, \x
+  Do -- mi -- ne
+  Fi -- li %85
+  u -- ni --
+  ge -- ni -- te, __
+  Je -- su
+  Chri -- ste,
+
+  u -- ni -- %92
+  ge --
+  _
+  %95
+  _
+
+  _ ni -- te,
+  Je -- su __
+  Chri -- %100
+  ste.
+
+  Do -- mi -- ne %114
+  Fi -- li, %115
+  Fi -- li u -- ni --
+  ge -- ni -- te,
+
+  u -- ni -- %120
+  ge -- ni -- te,
+  Je -- su
+  Chri -- ste, Je --
+
+  su %127
+  Chri --
+  ste.
+
+  Do -- mi -- ne %138
+  De -- us, De --
+  us, %140
+  A -- gnus
+  De -- i,
+
+  Fi -- li -- us %151
+  Pa --
+  _
+
+  _ %155
+  _ _
+  tris.
+
+  Do -- mi -- ne __ %163
+  De -- us,
+  De -- us, A -- gnus %165
+  De -- i,
+
+  Fi --
+  li -- us
+  Pa -- %170
+  _
+  _
+  _
+  _ _
+  tris. %175 finis
 }

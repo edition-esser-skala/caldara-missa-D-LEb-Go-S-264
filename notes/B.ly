@@ -169,7 +169,7 @@ GloriaBasso = {
     c4 c, f4. d8
     g4. e8 a4. f8
     g4 g8 g g4. g8
-    c,1\fermata \bar "|." %64 finis
+    c,1\fermata \bar "||" %64 finis
   }
 }
 

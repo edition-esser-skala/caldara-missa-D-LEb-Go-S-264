@@ -320,7 +320,7 @@ GloriaOrgano = {
     c4 c, f!4. d8
     g4. e8 a4. f8
     g1
-    c,\fermata \bar "|." %64 finis
+    c,\fermata \bar "||" %64 finis
   }
 }
 
@@ -389,4 +389,253 @@ GloriaBassFigures = \figuremode {
   <5> <6> <5> <6>8 q
   <7 5>4 <6 4> <5 \t> \bc <[\t 3]>
   r1 %64 finis
+}
+
+DomineOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 3/8 \tempoDomine
+      \set Score.currentBarNumber = #65
+    \mvTr f8\fE-\soloE a f
+    c' c,4
+    c8 e c
+    f4 f,8
+    f' d f
+    g4 d8 %70
+    e c e
+    f f,16 g a b
+    c8 c' b
+    a f g
+    r g a %75
+    r a b
+    r h c
+    r a a
+    b!16 a g f e d
+    c8 c16 c c8 %80
+    f c' c,
+    f a\pE f
+    c' c,4
+    c8 e c
+    f4 f,8 %85
+    c' e c
+    d e f
+    b,4 h8
+    c4 c8\fE
+    g'4 g,8 %90
+    g' h g
+    c4 c,8
+    f\pE a16 g f8
+    c4 c8
+    a h4 %95
+    c8 e c
+    f4 fis8
+    g g16 a h g
+    c8 a h
+    c f, g %100
+    c, a\fE c
+    d8. e16 f8
+    g h g
+    c c,16 d e f
+    g8 g f %105
+    e c d
+    r d e
+    r e f
+    r fis g
+    r e e %110
+    a16 g f! e d c
+    h8 h h
+    c g' g,
+    c4 r8
+    c\pE g' f %115
+    e c16 d e8
+    f16 g a b! c8
+    r f,\fE g
+    r g a
+    g f r %120
+    g\pE c b
+    a a a
+    b b a
+    g8. f16 e!8
+    f a f %125
+    b,4.
+    c
+    d8 b c
+    f, f'\fE g
+    r g a %130
+    r a b
+    r h c
+    r cis d
+    r f, f
+    g16 f e d c! b! %135
+    a4.
+    d8 a' a,
+    d d, d'\pE
+    d cis8. h32 cis
+    d8 f d %140
+    b'! f g
+    a16 b a g f e
+    d8\fE f d
+    a' a,4
+    a'8 cis a %145
+    d,4 d8
+    d4.
+    e
+    a8 cis a
+    b! gis gis %150
+    a a, a'\pE
+    f r d
+    g,4 r8
+    c!4 r8
+    f fis4 %155
+    g8 c, d
+    g, b\fE g
+    d'4 d,8
+    d' fis d
+    g4 g,8 %160
+    g' g, g'
+    a16 a, a'8. g16
+    f!\pE e d4
+    g8 g f
+    e c e %165
+    f f\fE g
+    r g a
+    r a b
+    g4\pE f8
+    g4 a8 %170
+    f16. e32 d4
+    d8 c! h
+    a h cis
+    d g, a
+    d f\fE d %175
+    a'4 a,8
+    a' cis a
+    d4 d,8
+    d4 r8
+    g16 f e d c! b! %180
+    a4.
+    d8 a' a,
+    d4.\fermata \bar "||" %183 finis8
+  }
+}
+
+DomineBassFigures = \figuremode {
+  r4. %65
+  <4>8 <3>4
+  r <7>8
+  <9> <8>4
+  r4.
+  <9>8 <8> <6> %70
+  \bo <[10] 9> \bc <[8]> <6 5>8
+  \bo <[9 _]> <8>4
+  r4.
+  <6>8 q4
+  r8 <6>4 %75
+  r8 <6>4
+  r8 <6>4
+  r8 <6>4
+  r4.
+  \bc <[7 _!]> %80
+  r8 <4> <3>
+  r4.
+  \bo <[4]>8 <3>4
+  r4.
+  <9>8 <8>4 %85
+  r4 \bc <[6]>8
+  <6>4.
+  <7>8 <6> <5>
+  r4.
+  \bo <[4]>8 \bc <_!>4 %90
+  r4 <7 [_!]>8
+  <9> <8>4
+  r4.
+  <4>8 <[3]>4
+  <7>8 <6> <5> %95
+  \bo <[9]> \bc <[8]>4
+  <7> <6>8
+  \bo <[_!]>4.
+  r8 <6> q
+  r q \bc <[_!]> %100
+  r4.
+  <9>8 <8>4
+  <4>8 <6> <7 [_!]>
+  \bo <[9 _]> <8>4
+  <6 _!>8 \bc <[5 \t]>4 %105
+  r8 <6>4
+  r8 <6!> \bo <[5!]>
+  r8 <6>
+  r8 q <_!>
+  r8 \bc <[6]>4 %110
+  <6>4.
+  <6 5>
+  r8 \bo <[4]> <3>
+  r4.
+  <7-> %115
+  \bc <[6]>
+  r
+  r8 <6>4
+  r8 q4
+  q4. %120
+  <6->
+  \bo <[6 5-]>
+  <4->8 <3>4
+  <7>8 <6!>4
+  <9>8 \bc <[8 _]>4 %125
+  <7>8 <6>4
+  <7>8 \bo <[6 4]> <5 3>
+  r <6>4
+  r8 \bc <[6 _]>4
+  r8 <6>4 %130
+  r8 <6>4
+  r8 <6>4
+  r8 <6>4
+  \bo <[6 _]>4.
+  r %135
+  <7 _+>
+  r8 <4> <_+>
+  r4.
+  <5 2>8 <6>4
+  <9>8 <6>4 %140
+  r8 <6>4
+  <4>8 <_+>4
+  r4.
+  <4>8 <_+>4
+  r4. %145
+  <9>8 <8>4
+  <5>8 <6> <5>
+  <10 9> \bassFigureExtendersOn <10 8> <10 7> \bassFigureExtendersOff
+  <4> <6> <7 _+>
+  <4>8 <7 _!>4 %150
+  <_+>4.
+  <6>
+  r
+  r
+  r8 <6>4 %155
+  r8 <6 _-> <_+>
+  r4.
+  <4>8 <_+>4
+  r4.
+  <9>8 <8>4 %160
+  r4.
+  <_+>
+  <6>
+  r
+  <6> %165
+  r8 q4
+  r8 q4
+  r8 q4
+  <7>8 <6-> <6>
+  <6-> <5> <5! _+> %170
+  <6>4.
+  <6->8 <6> <6\\>
+  <_+>4.
+  r8 <6> <_+>
+  r4. %175
+  <4>8 <_+>4
+  r4.
+  <9>8 <8>4
+  r4.
+  r %180
+  <7 _+>
+  r8 <4> <_+>
+  r4. %183 finis
 }

@@ -172,6 +172,104 @@ GloriaViolinoII = {
     c8. g16 g4 a4. f'8
     h,16 a g4 g'8 c,16 h a4 a'8
     h, a16 g c2 h4
-    c1\fermata \bar "|." %64 finis
+    c1\fermata \bar "||" %64 finis
+  }
+}
+
+DomineViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/8 \tempoDomine
+      \set Score.currentBarNumber = #65
+    r8 r f'~\fE
+    f e16. d32 e8
+    r r \once \tieDashed g~
+    g c, f
+    r r a~
+    a g \once \tieDashed f~ %70
+    f e \once \tieDashed g~
+    g f f,
+    e4 r8
+    r a b
+    r b c %75
+    r c d
+    r d e
+    R4.
+    d16 c b a g f
+    e!8. g16 f e %80
+    f8 f e
+    f r r
+    R4.*6 %88
+    r8 r \once \tieDashed c'~\fE
+    c h16. a32 h8 %90
+    r r \once \tieDashed d~
+    d g, c
+    R4.*2
+    r8 r d~\pE %95
+    d c16. h?32 c8
+    R4.*4 %100
+    r8 r e~\fE
+    e d c~
+    c h d~
+    d c c,
+    h16 a g4 %105
+    g'8 a r
+    a h r
+    h c r
+    c d r
+    e16 d c b! a g %110
+    f4.~
+    f16 d' d f, d' f,
+    e8 d4
+    c r8
+    R4.*3 %117
+    r8 a'\fE b!
+    r  b c
+    b-\critnote a r %120
+    R4.*8 %128
+    r8 a\fE b
+    r b c %130
+    r c d
+    r d e
+    r e f
+    R4.
+    b16 a g f e d^\critnote %135
+    cis8 cis8. h32 cis
+    d8 d cis
+    d4 r8
+    R4.*4 %142
+    r8 r \once \tieDashed d~\fE
+    d cis16.^\critnote h?32 cis8
+    r r \once \tieDashed e~ %145
+    e a, d
+    r r f~
+    f e \once \tieDashed d~
+    d cis \once \tieDashed e~
+    e d d, %150
+    cis4.
+    R
+    b'16\pE a g f e d
+    c!8 r r
+    R4.*2 %156
+    r8 r g''~\fE
+    g fis16.^\critnote e32 fis8
+    r r \once \tieDashed a~
+    a d, g %160
+    d16 c b a g f!
+    e4.
+    R4.*3 %165
+    r8 a\fE b
+    r b c
+    r c d
+    R4.*6 %174
+    r8 r d~\fE %175
+    d cis16.^\critnote h?32 cis8
+    r r \once \tieDashed e~
+    e a, d
+    R4.
+    b16 a g f e d %180
+    cis8 cis4
+    d8 d cis
+    d4.\fermata \bar "|." %183 finis
   }
 }

@@ -215,7 +215,7 @@ GloriaSoprano = {
     c8 c c4. a8 d4~
     d8 h e4. c8 f4~
     f e8 e d4. d8
-    e1\fermata \bar "|." %64 finis
+    e1\fermata \bar "||" %64 finis
   }
 }
 
@@ -259,8 +259,7 @@ GloriaSopranoLyrics = \lyricmode {
 }
 
 
-% Do -- mi -- ne Fi -- li u -- ni -- ge -- ni -- te, Je -- su Chri -- ste,
-% Do -- mi -- ne De -- us, A -- gnus De -- i, Fi -- li -- us Pa -- tris.
+
 % Qui tol -- lis pec -- ca -- ta mun -- di:
 % Mi -- se -- re -- re no -- bis.
 % Qui tol -- lis pec -- ca -- ta mun -- di:
