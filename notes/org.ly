@@ -723,3 +723,100 @@ QuiTollisBassFigures = \figuremode {
   <6\\ [5 _+]>2 <[5\+] _+>1
   <_+>1. %222 finis
 }
+
+QuoniamOrgano = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \tempoQuoniam
+      \set Score.currentBarNumber = #223
+    \mvTr a8\fE-\soloE a' gis e a4 r8 a
+    d d h g c4 r8 e,
+    f f f16. d32 g8 g g g16. e32 a8 %225
+    a f d h c f g g,
+    c4 c' d8 d, h'4
+    c8 c, a'4 h8 h, gis'4
+    a8 d c h a a g f
+    e e a c, d h e e, %230
+    a a'\pE gis e a h c a
+    g e h' h, e fis g gis
+    a16 h c d e8 e, a g f4
+    e e16 d c h a8\fE a' gis e
+    a a c a d d h g %235
+    c c\pE a f d h g c16. d32
+    e8 f r f g f e4
+    f8 e d4 e8 d c f
+    g f g g, c4 e\fE
+    f d'8 d, e4 c'8 c, %240
+    d4 h'8 h, c f e d
+    c c h a g a16 h c8 e
+    f d g g, c4 r8 a\pE
+    g4 r8 e' d4 r8 d
+    a4 a16 h c d e8 e g e %245
+    h'4 h, e8\fE fis r fis
+    g g, e' e e4 dis
+    e8 e\pE g e a a c a
+    d,! d fis d g g h g
+    c, h c a h h c c %250
+    a a h h e e\fE dis h
+    e e gis e a, a\pE c a
+    e' e gis e a, a c a
+    d d16 e f4 gis,8 gis gis gis
+    a4 a16 h c a d8 d c a %255
+    d c d4 e8 d e e,
+    a a'\fE gis e a4 r8 a
+    d d h g c4 r8 e,
+    f f f16. d32 g8 g g g16. e32 a8
+    a f d h c f g g, %260
+    c4 c' d8 d, h'4
+    c8 c, a'4 h8 h, gis'4
+    a8 d c h a a g f
+    e e a c,^\critnote d h e e,
+    a4 r r2\fermata \bar "||" %265 finis
+  }
+}
+
+QuoniamBassFigures = \figuremode {
+  r4 <6>8 <_+> r2 %223
+  r4 <6>2 r8 q
+  <5> <6>4. <5>8 <6>4. %225
+  r <6>8 r2
+  r1
+  r
+  r4 <6>8 <6\\>4. <6>8 <6\\>
+  <_+>4. <6> <4>8 <_+> %230
+  r4 <6>8 <_+> r2
+  <6>8 <_!> <5\+ _+>2 <6>8 <\t>
+  r4 <_+>4. <6>8 q4
+  <4> <_+>2 <6>8 <_+>
+  r2. <6>4 %235
+  r4. <6>4 q4.
+  q4. <7>4 <6>4.
+  r8 q2 q4.
+  <4>4 <3>2 <6>4
+  r1 %240
+  r2. <6>8 q
+  r4 <6>8 <6\\>2 <6>8
+  r4 <4>8 <3>2 <6\\>8
+  r4. q8 <4> <_!>4.
+  <4>8 <_!>4. q2 %245
+  <6 4>4 <5\+ _+> <6>8 <5>4.
+  r2 <4\+ 2>4 <6 _+>
+  r1
+  <_+>
+  <7>4 <6>8 <6\\> <7 5\+ _+>4 <5> %250
+  <6\\ 5> <5\+ _+>2 <6 _+>8 <5\+ _+>
+  <_+>1
+  <4>4 <6>8 <_+> <9>4 <6>
+  r q <5>4. <6>8
+  r2 <6->4 <6> %255
+  <6->8 <6>4. <5! 4>4 <\t _+>
+  r <6>8 <_+> r2
+  r4 <6>2 r8 q
+  <5> <6>4. <5>8 <6>4.
+  r <6>8 r2 %260
+  r1
+  r
+  r4 <6>8 <6\\>4. <6>8 <6\\>
+  <_+>4. <6> <4>8 <_+>
+  r1 %265 finis
+}
