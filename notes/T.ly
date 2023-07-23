@@ -241,3 +241,75 @@ QuiTollisTenoreLyrics = \lyricmode {
   re no --
   bis. %222 finis
 }
+
+CumSanctoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoCumSancto
+      \set Score.currentBarNumber = #266
+    R1*3 %268
+    \mvTr c2\fE^\tuttiE h4 c
+    d h8([ g)] c4 fis, %270
+    h8 h16 h h8 h a2
+    g8 g16([ a] h8[ g)] d' d[ h e]
+    r c[ a] d r4 d~
+    d8[ c16 h] c4. h16[ a] h4
+    c r r r8 c %275
+    a[ d] r g, e a r4
+    d4. c16[ h] c4. h16[ a]
+    h8 g r h a[ d] r h
+    g c r a4 h8 r h
+    e2 d %280
+    c4 r8 e d[ g] r h,
+    a d r4 r a~
+    a gis r2
+    R1*2 %285
+    r4 e'4.( dis16[ cis] dis4)
+    e4 e4. d16[ c] d4~
+    d8[ c16 h] c8 c h2
+    a8 c16([ d] e8[ c)] d4 r
+    r8 d16[ c] h8[ d] r e16[ d] c8[ e] %290
+    a,4 r d2
+    h4 c a h8([ g)]
+    c4 fis, h8 h16 h h8 h
+    a2 g8 g16[ a] h8[ g]
+    a[ d] r h[ g] c r4 %295
+    r d4. c16[ h] c8[ g]
+    a4 d g,8 a r g
+    e[ c'] r a f[ d'] r c~
+    c d h4 c r\fermata \bar "|." %299 finis
+  }
+}
+
+CumSanctoTenoreLyrics = \lyricmode {
+  Cum San -- cto %269
+  Spi -- ri -- tu in %270
+  glo -- ri -- a De -- i Pa --
+  tris, a -- men, a --
+  _ men, a --
+  _ _ _
+  men, a -- %275
+  _ _ _ men,
+  a -- _ _ _
+  _ men, a -- _ _
+  _ men, a -- men, a --
+  _ _ %280
+  men, a -- _ _
+  _ men, a --
+  men,
+
+  a -- %286
+  men, a -- _ _
+  _ men, a --
+  men, a -- men,
+  a -- _ _ _ %290
+  men, cum
+  San -- cto Spi -- ri --
+  tu in glo -- ri -- a De -- i
+  Pa -- tris, a -- _
+  _ _ men, %295
+  a -- _ _
+  _ _ _ men, a --
+  _ _ _ _
+  men, a -- men. %299 finis
+}

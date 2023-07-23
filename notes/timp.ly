@@ -78,3 +78,24 @@ QuiTollisTimpani = {
     R1.\fermata \bar "||" %222 finis
   }
 }
+
+CumSanctoTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoCumSancto
+      \set Score.currentBarNumber = #266
+    R1*6 %271
+    g4\fE r r2
+    r g4 r
+    R1
+    r8 c c c g4 r %275
+    R1*4
+    r2 r4 g %280
+    c8 c c c g4 r
+    R1*8 %289
+    r2 r8 c c4 %290
+    r2 r8 g g4
+    R1*7 %298
+    r4 g c r\fermata \bar "|." %299 finis
+  }
+}

@@ -88,3 +88,25 @@ QuiTollisClarinoII = {
     R1.\fermata \bar "||" %222 finis
   }
 }
+
+CumSanctoClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCumSancto
+      \set Score.currentBarNumber = #266
+    R1*6 %271
+    d'4\fE r r2
+    r d4 r
+    R1
+    r8 c c c d4 r %275
+    R1*3
+    r2 r4 d~
+    d c d2 %280
+    c4. c8 d4 r
+    R1*8 %289
+    r2 r8 g, g4 %290
+    r2 r8 g g4
+    R1*7 %298
+    r4 d' c r\fermata \bar "|." %299 finis
+  }
+}

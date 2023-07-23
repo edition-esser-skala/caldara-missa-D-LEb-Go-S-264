@@ -361,3 +361,37 @@ QuoniamViolinoIeII = {
     a r r2\fermata \bar "|." %265 finis
   }
 }
+
+CumSanctoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCumSancto
+      \set Score.currentBarNumber = #266
+    R1*9 %274
+    c'2\fE h4 c %275
+    a h c fis,
+    h8 h h h a2
+    g8 g16 a h8 g d' d h e
+    r c a d r4 d~
+    d8 c16 h c4. h16 a h4 %280
+    c c2 h4
+    r d2 c4~
+    c h e2
+    dis4 e fis dis8 h
+    e4 r8 e c c c c %285
+    h2 a8 a4 g16 fis
+    g8 e r c' a d r h
+    gis c r a4 h8 gis4
+    a8 a16 h c8 a f'2~
+    f8 h,16 c d8 h e2~ %290
+    e8 a, d c h g16 a h8 g
+    d' r r e c f r h,
+    g c r4 d4. c16 h
+    c4. h16 a h4 d~
+    d h c a %295
+    h8 g d'4 r8 g c, c
+    c c b4. a8 d c16 h
+    c4. h16 a h4. a16 g
+    a8 a g4 g r\fermata \bar "|." %299 finis
+  }
+}

@@ -511,3 +511,82 @@ QuoniamAltoLyrics = \lyricmode {
   Je -- su Je -- su Chri --
   ste. %257 finis
 }
+
+CumSanctoAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoCumSancto
+      \set Score.currentBarNumber = #266
+    \mvTr g'2\fE^\tuttiE fis4 g
+    e fis8([ d)] g4 h,
+    e8 e16 e e8 e d2
+    c8 c16([ d] e8[ c)] g' g[ e a]
+    r f[ d] g r4 a~ %270
+    a8[ g16 fis] g4. fis16[ e] fis4
+    g r r r8 g
+    e[ a] r fis d g r4
+    g4. f16[ e] f4. e16[ d]
+    e8 c r e d[ g] r e %275
+    c[ f] r d g e r a
+    fis4 e2 d4
+    d r r2
+    r8 e[ c f!] r f[ d] g
+    g4. f16[ e] f4. e16[ d] %280
+    e8 c r4 r g'~
+    g f2 e4
+    e2 r
+    h'4 g a h
+    gis8([ e)] a4 r r8 a %285
+    g g16 g g8 g fis2
+    e8 g a4 r8 fis gis4
+    r8 e f4. f8 e4
+    e r r8 f16([ g] a8[ f)]
+    d4 r r8 g16[ f] e8[ g] %290
+    a2 g4 r
+    r8 g[ e a] r f[ d g]
+    r4 a~ a8[ g16 fis] g4~
+    g8[ fis16 e] fis4 g8 d r4
+    r8 fis([ d] g4) e8 r4 %295
+    r2 g4. f16[ e]
+    f4. e16[ d] e8 f r d(
+    g) e4 c8 f d4 e8
+    d2 e4 r\fermata \bar "|." %299 finis
+  }
+}
+
+CumSanctoAltoLyrics = \lyricmode {
+  Cum San -- cto %266
+  Spi -- ri -- tu in
+  glo -- ri -- a De -- i Pa --
+  tris, a -- men, a --
+  _ men, a -- %270
+  _ _ _
+  men, a --
+  _ _ _ men,
+  a -- _ _ _
+  _ men, a -- _ _ %275
+  _ _ _ men, a --
+  _ _ _
+  men,
+  a -- _ men,
+  a -- _ _ _ %280
+  _ men, a --
+  men, a --
+  men,
+  cum San -- cto Spi --
+  ri -- tu in %285
+  glo -- ri -- a De -- i Pa --
+  tris, a -- _ _ _
+  _ _ men, a --
+  men, a --
+  men, a -- _ %290
+  _ men,
+  a -- _
+  _ _
+  _ _ men,
+  a -- men, %295
+  a -- _
+  _ _ _ men, a --
+  men, a -- _ _ _
+  _ men. %299 finis
+}

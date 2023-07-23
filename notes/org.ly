@@ -820,3 +820,95 @@ QuoniamBassFigures = \figuremode {
   <_+>4. <6> <4>8 <_+>
   r1 %265 finis
 }
+
+CumSanctoOrgano = {
+  \relative c {
+    \clef treble
+    \key c \major \time 4/4 \tempoCumSancto
+      \set Score.currentBarNumber = #266
+    \mvTr g''2\fE-\tuttiE fis4 g
+    e fis8 d g4 h,
+    e4. e8 d2
+    << {
+      c8 c16 d e8 c g'4 e8 a
+      r f d g r4 a~ %270
+      a8 g16 fis g4. fis16 e fis4
+    } \\ {
+      c2_\critnote h4 c
+      d h8 g c4 fis, %270
+      h4. h8 a2
+    } >>
+    \clef bass g2 fis4 g
+    a fis8 d g4 h,
+    e2 d
+    c8 c16 d e8 c g'4 e8 a %275
+    r f d g e4 a~
+    a8 g16 fis g4. fis16 e fis4
+    g r8 g fis h r g
+    e a r f d g r g
+    e4. d16 c f8 f g g, %280
+    c c16 d e8 c g' g16 a h8 g
+    d d16 e f8 d a' a,16 h c8 a
+    e'4 e, \clef treble << {
+      e'''2
+      dis4 e fis dis8 h
+      e4 r8 e c c16 c c8 c %285
+      h4
+    } \\ {
+      r2-\critnote
+      h4 g a h
+      gis8 e a4 r r8 a %285
+      g-\critnote g16 g
+    } >> \clef "treble_8" e4. dis16 cis dis8 \noBeam \clef bass h
+    g c r a fis h r gis
+    e a r f d d e4
+    a, \clef "treble_8" e''8 c d \clef bass d,16[ e] f8 d
+    g!4 \clef "treble_8" h8 d \clef bass r c,16 d e8 c %290
+    f f fis4 g \clef "treble_8" d'
+    h c a h8 g
+    c4 fis, h8 h16 h h8 h
+    a2 \clef bass g
+    fis4 g e fis8 d %295
+    g4 h, e2
+    d c8 f! d g
+    r e c f r d h e
+    f d g4 c, r\fermata \bar "|." %299 finis
+  }
+}
+
+CumSanctoBassFigures = \figuremode {
+  r1 %266
+  r
+  r
+  r
+  r %270
+  r
+  r2 \bo <[6 _]>4 <5>8 <6>
+  r4 <6>8 <_+>4. <6>4
+  <7> <6> <7 _!> <6 \t>
+  r2. <6>4 %275
+  r8 <6> \bc <[6 _]>4 \bo <6 [3]>8 \bc <\t [4]> <6\\>4
+  \bo <[6\\ 4 2]> <6 5> <6 4 2> <6 5>
+  r2 <6>8 <5\+>4 <6>8
+  r4. <6>4 <7>4.
+  q4 <6> <6 5> <7> %280
+  r2 <4>4 <6>
+  <4> <6> <6 4> <6>
+  <6 4> <5 _+>2.
+  r1
+  r %285
+  r4 <5 3> <4 2\+>4. <7 5\+ _+>8
+  <6>2 <7>8 <5\+ _!>4 <6 5>8
+  <7 _+>2 <6 5>4 <_+>
+  r4 <6 4>8 <\t \t>4. <6>4
+  <7> <6>2 q4 %290
+  <7> <6>8 <5>4. <6>4
+  q <5>8 <6> <5> <6> q4
+  r <6> <7 5\+> <6>
+  <7> <6\\> r2
+  <6>2 q4 q8 <_+> %295
+  r4 <6> <7> <6>
+  <7>4 <6-> <7->4. <_!>8
+  r <6>2 q4 q8
+  <6 5>1 %299 finis
+}
