@@ -6,24 +6,62 @@
 
 \book {
   \bookpart {
-    \section "1" "First"
+    \section "1" "Kyrie"
     \addTocEntry
     \paper { indent = 2\cm }
     \score {
       <<
         \new Staff {
           \set Staff.instrumentName = "Violino I"
-          \xxxViolinoI
+          \KyrieViolinoI
         }
       >>
     }
   }
   \bookpart {
-    \section "2" "Second"
+    \section "2" "Gloria"
     \addTocEntry
     \score {
       <<
-        \new Staff { \yyyViolinoI }
+        \new Staff { \GloriaViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Domine Deus"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \DomineViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Qui tollis"
+    \addTocEntry
+    \paper { systems-per-page = #6 }
+    \score {
+      <<
+        \new Staff { \QuiTollisViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Quoniam"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \QuoniamViolinoIeII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Cum Sancto Spiritu"
+    \addTocEntry
+    \paper { systems-per-page = #6 }
+    \score {
+      <<
+        \new Staff { \CumSanctoViolinoI }
       >>
     }
   }

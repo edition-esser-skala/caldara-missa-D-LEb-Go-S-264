@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "org")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,10 +12,9 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Organo"
-          \KyrieOrgano
+          \set Staff.instrumentName = "Violino II"
+          \KyrieViolinoII
         }
-        \new FiguredBass { \KyrieBassFigures }
       >>
     }
   }
@@ -24,8 +23,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \GloriaOrgano }
-        \new FiguredBass { \GloriaBassFigures }
+        \new Staff { \GloriaViolinoII }
       >>
     }
   }
@@ -34,8 +32,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \DomineOrgano }
-        \new FiguredBass { \DomineBassFigures }
+        \new Staff { \DomineViolinoII }
       >>
     }
   }
@@ -45,8 +42,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \QuiTollisOrgano }
-        \new FiguredBass { \QuiTollisBassFigures }
+        \new Staff { \QuiTollisViolinoII }
       >>
     }
   }
@@ -55,18 +51,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \QuoniamOrgano }
-        \new FiguredBass { \QuoniamBassFigures }
+        \new Staff { \QuoniamViolinoIeII }
       >>
     }
   }
   \bookpart {
     \subsection "Cum Sancto Spiritu"
     \addTocEntry
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \CumSanctoOrgano }
-        \new FiguredBass { \CumSanctoBassFigures }
+        \new Staff { \CumSanctoViolinoII }
       >>
     }
   }
