@@ -172,3 +172,72 @@ GloriaTenoreLyrics = \lyricmode {
   Pa -- ter o -- mni -- po --
   tens. %64 finis
 }
+
+QuiTollisTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #184
+    r4 \mvTr d\fE^\tuttiE d2
+    d r8 f f f %185
+    e2 e
+    r8 e e e c2
+    c r
+    c4 c cis2
+    a r %190
+    d4 d h!2
+    c fis,4 g!8[ a]
+    h2 g4. c8
+    a4 fis'8.[ e16] \once \tieDashed d2~ \noBreak
+    d d\fermata \bar "||" %195
+    \tempoQuiTollisB R1*8 %203
+    r4 \mvTr c\fE^\tuttiE cis cis8 cis
+    cis4 cis8 cis cis4 cis %205
+    r cis? h h8 h \noBreak
+    c2 h\fermata \bar "||"
+    \time 3/2 \tempoMiserere \newSpacingSection R1.*4 %211
+    r2 \mvTr e\fE^\tuttiE e
+    \tieDashed e1.~
+    e~ \tieSolid
+    e2 d d~ %215
+    d c1
+    a1.
+    fis\fermata
+    R
+    e'2 h c %220
+    cis h1
+    h1.\fermata \bar "||" %222 finis
+  }
+}
+
+QuiTollisTenoreLyrics = \lyricmode {
+  Qui tol -- %184
+  lis pec -- ca -- ta %185
+  mun -- di,
+  pec -- ca -- ta mun --
+  di:
+  Mi -- se -- re --
+  re, %190
+  mi -- se -- re --
+  re no -- _
+  _ _ _
+  _ _ _
+  bis. %195
+
+  Qui se -- des ad %204
+  dex -- te -- ram Pa -- tris, %205
+  ad dex -- te -- ram
+  Pa -- tris:
+
+  Mi -- se -- %212
+  re --
+
+  re, mi -- %215
+  se --
+  re --
+  re,
+
+  mi -- se -- re -- %220
+  re no --
+  bis. %222 finis
+}

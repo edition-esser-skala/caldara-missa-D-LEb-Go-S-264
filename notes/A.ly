@@ -375,3 +375,77 @@ DomineAltoTenoreLyrics = \lyricmode {
   _ _
   tris. %175 finis
 }
+
+QuiTollisAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #184
+    r4 \mvTr g'\fE^\tuttiE g2
+    g r8 g g g %185
+    g2 g
+    r8 g g4.( f16[ e]) f4
+    f e r2
+    e4 e e2
+    d4 r r2 %190
+    f4 f f2
+    e4.( fis8) dis4 \once \tieDashed e~
+    e d2 c8[ a']
+    fis8.[ g16] a2 g4~
+    g fis g2\fermata \bar "||" %195
+    \tempoQuiTollisB R1*8 %203
+    r4 \mvTr e\fE^\tuttiE e e8 e
+    e4 e8 e e4 e %205
+    r e d d8 d \noBreak
+    dis2 e\fermata \bar "||"
+    \time 3/2 \tempoMiserere \newSpacingSection
+      R1.*2
+    r2 \mvTr h'\pE^\soloE h %210
+    c( h) ais
+    h4( ais) h2 \mvTr h~\fE^\tuttiE
+    h \tieDashed a1~
+    a2 g1~ \tieSolid
+    g2^\critnote f!1 %215
+    f2 e1
+    c1.
+    h\fermata
+    R
+    g'2 g g %220
+    fis fis1
+    gis1.\fermata \bar "||" %222 finis
+  }
+}
+
+QuiTollisAltoLyrics = \lyricmode {
+  Qui tol -- %184
+  lis pec -- ca -- ta %185
+  mun -- di,
+  pec -- ca -- ta
+  mun -- di:
+  Mi -- se -- re --
+  re, %190
+  mi -- se -- re --
+  re __ no -- _
+  _ _
+  _ _ _
+  _ bis. %195
+
+  Qui se -- des ad %204
+  dex -- te -- ram Pa -- tris, %205
+  ad dex -- te -- ram
+  Pa -- tris:
+
+  Mi -- se -- %210
+  re -- re
+  no -- bis, mi --
+  se --
+  re --
+  re, %215
+  mi -- se --
+  re --
+  re,
+
+  mi -- se -- re -- %220
+  re no --
+  bis. %222 finis
+}

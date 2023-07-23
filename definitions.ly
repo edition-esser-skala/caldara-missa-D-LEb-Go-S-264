@@ -8,8 +8,12 @@
 
 tempoKyrie = \tempoMarkup "Allegro"
   tempoKyrieB = \tempoMarkup "Allegro"
+
 tempoGloria = \tempoMarkup "Allegro"
-  tempoDomine = \tempoMarkup "Allegro"
+tempoDomine = \tempoMarkup "Allegro"
+tempoQuiTollis = \tempoMarkup "Grave"
+  tempoQuiTollisB = \tempoMarkup "Andante"
+  tempoMiserere = \tempoMarkup "Andante"
 
 
 \include "notes/clno1.ly"
@@ -17,6 +21,8 @@ tempoGloria = \tempoMarkup "Allegro"
 \include "notes/timp.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
+\include "notes/vla1.ly"
+\include "notes/vla2.ly"
 \include "notes/S.ly"
 \include "notes/A.ly"
 \include "notes/T.ly"

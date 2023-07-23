@@ -206,3 +206,86 @@ GloriaBassoLyrics = \lyricmode {
   Pa -- ter o -- mni -- po --
   tens. %64 finis
 }
+
+QuiTollisBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #184
+    r4 \mvTr h\fE^\tuttiE h2
+    h r8 h h h
+    c2 c
+    r8 c c c c2
+    c r
+    b4 b a2
+    d r
+    d4 d d2
+    c4( h8[ a]) \once \tieDashed h2~
+    h c
+    d g \noBreak
+    d g,\fermata \bar "||"
+    \tempoQuiTollisB r4 r8 \mvTr e'\pE^\soloE h' h, r h \noBreak
+    e e r e c c c4
+    h r gis' gis8 gis
+    a8. a,16 a4 b'8 d b a
+    gis8.([ fis16)] e4 a a8 a
+    dis, dis dis8. dis16 e4 e
+    e2 a,4 r
+    R1
+    r4 \mvTr a'\fE^\tuttiE g! g8 g
+    g4 g8 g fis4 fis
+    r fis h h8 h \noBreak
+    a!2 g\fermata \bar "||"
+    \time 3/2 \tempoMiserere \newSpacingSection R1.*4
+    r2 \mvTr g\fE^\tuttiE e
+    a a,4 h c d
+    e2 g e
+    cis d f4 d
+    h2 c e4 c
+    a1.
+    a\fermata
+    R
+    g'2 e c
+    ais h1
+    e1.\fermata \bar "||"
+  }
+}
+
+QuiTollisBassoLyrics = \lyricmode {
+  Qui tol -- %184
+  lis pec -- ca -- ta %185
+  mun -- di,
+  pec -- ca -- ta mun --
+  di:
+  Mi -- se -- re --
+  re, %190
+  mi -- se -- re --
+  re __ no --
+  _
+  _ _
+  _ bis. %195
+  Qui tol -- lis pec --
+  ca -- ta, pec -- ca -- ta mun --
+  di: Su -- sci -- pe,
+  su -- sci -- pe de -- pre -- ca -- ti --
+  o -- nem, su -- sci -- pe %200
+  de -- pre -- ca -- ti -- o -- nem
+  no -- stram.
+
+  Qui se -- des ad
+  dex -- te -- ram Pa -- tris, %205
+  ad dex -- te -- ram
+  Pa -- tris:
+
+  Mi -- se -- %212
+  re -- _ _ _ _
+  _ _ _
+  _ re, mi -- se -- %215
+  re -- re no -- _
+  _
+  bis,
+
+  mi -- se -- re -- %220
+  re no --
+  bis. %222 finis
+}

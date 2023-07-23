@@ -69,3 +69,22 @@ GloriaClarinoII = {
     e1\fermata \bar "||" %64 finis
   }
 }
+
+QuiTollisClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #184
+    r4 d'\fE d2
+    d r8 d d d %185
+    e2 e
+    R1*8 \noBreak %194
+    R1\fermata \bar "||" %195
+    \tempoQuiTollisB R1*11 \noBreak %206
+    R1\fermata \bar "||"
+    \time 3/2 \tempoMiserere \newSpacingSection R1.*10 %217
+    R1.\fermata
+    R1.*3 %221
+    R1.\fermata \bar "||" %222 finis
+  }
+}
