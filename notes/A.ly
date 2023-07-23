@@ -188,3 +188,52 @@ KyrieAltoLyrics = \lyricmode {
   le -- i -- son, e -- lei --
   son. %115 finis
 }
+
+GloriaAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoGloria
+    R1*3
+    r2 r8 \mvTr g'\fE^\tuttiE g g
+    g g g fis g4 r %5
+    h2 fis
+    g d
+    e c
+    d4. d8 g, g' g g
+    g g g8. g16 c,4 e8 e %10
+    e e d4 e r
+    e8 e c a f'4 r
+    e r r8 a a g!
+    g4 f8 e16([ d)] e8 e e4
+    e r r2 %15
+    R1*43 %58
+    \mvTr g8.\fE^\tuttiE g16 g4 g8 g16 g g8 g16 g
+    g4 g g8 g g g %60
+    g4 g f4. f8
+    d4 g e a
+    d, e8 g g4. g8
+    g1\fermata \bar "|." %64 finis
+  }
+}
+
+GloriaAltoLyrics = \lyricmode {
+  In ter -- ra %4
+  pax ho -- mi -- ni -- bus, %5
+  et in
+  ter -- ra
+  pax ho --
+  mi -- ni -- bus, in ter -- ra
+  pax, ho -- mi -- ni -- bus bo -- nae %10
+  vo -- lun -- ta -- tis,
+  et in ter -- ra pax,
+  pax ho -- mi -- ni --
+  bus bo -- nae vo -- lun --
+  ta -- tis. %15
+
+  Do -- mi -- ne, Do -- mi -- ne, Do -- mi -- ne %59
+  De -- us, De -- us, Rex coe -- %60
+  le -- stis, De -- us
+  Pa -- ter, De -- us
+  Pa -- ter o -- mni -- po --
+  tens. %64 finis
+}

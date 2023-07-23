@@ -175,3 +175,98 @@ KyrieSopranoLyrics = \lyricmode {
   i -- son, e -- lei --
   son. %115 finis
 }
+
+GloriaSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoGloria
+    \mvTr e'2\fE^\tuttiE h
+    c g
+    a f
+    g c,8 c' c d
+    c d c c h4 r %5
+    R1*3
+    r2 r8 h d h
+    c c h8. h16 a4 g8 g %10
+    a a a4 gis8 h gis e
+    a4 r a r
+    h r r8 c4 h8
+    h h16 h a8 a gis a a([ gis)]
+    a4 r r2 %15
+    R1*20 %35
+    r4 \mvTr c4.\pE^\soloE c8 h4
+    e4. f16 e d4. e16 d
+    c2 h4 r
+    R1*3 %41
+    d8 d c h e16[ c d e]~ e[ f32 e d16 c]
+    d[ h c d]~ d[ e32 d c16 h] c[ a h c]~ c[ d32 c h16 a]
+    h8[ a16. h32] e,8[ fis16 g] a[ h] c4 h16[ a]
+    g8 fis16 e fis4 e r %45
+    R1*3
+    e'4. d!16 e c8. h16 c4
+    c8([ h16 a]) d8 c c16([ a)] h8 r4 %50
+    e8 c a h16([ c)] d8[ h16. a32] g8[ a16. h32]
+    c8[ a16. g32] fis8[ g16. a32] h8[ g16. fis32] e8[ fis16. g32]
+    a8[ h16. a32] h16[ a g fis] g8[ e'] d c
+    h4( a) g r
+    R1*4 %58
+    \mvTr h8.\fE^\tuttiE h16 h4 c8 d16 d c8 c16 c
+    c4 h h8 h d c16([ h)] %60
+    c8 c c4. a8 d4~
+    d8 h e4. c8 f4~
+    f e8 e d4. d8
+    e1\fermata \bar "|." %64 finis
+  }
+}
+
+GloriaSopranoLyrics = \lyricmode {
+  Et in
+  ter -- ra,
+  in ter --
+  ra pax, in ter -- ra
+  pax, in ter -- ra pax, %5
+
+  in ter -- ra %9
+  pax, ho -- mi -- ni -- bus bo -- nae %10
+  vo -- lun -- ta -- tis, in ter -- ra
+  pax, pax,
+  pax, pax ho --
+  mi -- ni -- bus bo -- nae vo -- lun --
+  ta -- tis. %15
+
+  Gra -- ti -- as %36
+  a -- gi -- mus, a -- gi -- mus
+  ti -- bi
+
+  pro -- pter ma -- gnam glo -- %42
+  _ _
+  _ _ _ _ _
+  _ ri -- am tu -- am, %45
+
+  gra -- ti -- as a -- gi -- mus, %49
+  a -- gi -- mus ti -- bi %50
+  pro -- pter ma -- gnam glo -- _
+  _ _ _ _
+  _ _ _ ri -- am
+  tu -- am.
+
+  Do -- mi -- ne, Do -- mi -- ne, Do -- mi -- ne %59
+  De -- us, De -- us, Rex coe -- %60
+  le -- stis, De -- us Pa --
+  ter, De -- us Pa --
+  ter o -- mni -- po --
+  tens. %64 finis
+}
+
+
+% Do -- mi -- ne Fi -- li u -- ni -- ge -- ni -- te, Je -- su Chri -- ste,
+% Do -- mi -- ne De -- us, A -- gnus De -- i, Fi -- li -- us Pa -- tris.
+% Qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% Qui tol -- lis pec -- ca -- ta mun -- di:
+% Su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram.
+% Qui se -- des ad dex -- te -- ram Pa -- tris:
+% Mi -- se -- re -- re no -- bis.
+% Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
+% tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
+% Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.

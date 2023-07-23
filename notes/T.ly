@@ -127,3 +127,48 @@ KyrieTenoreLyrics = \lyricmode {
   lei -- son, e -- lei --
   son. %115 finis
 }
+
+GloriaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoGloria
+    R1*3
+    r2 r8 \mvTr e\fE^\tuttiE e d^\critnote
+    e d e c d4 r %5
+    R1*3
+    r2 r8 d d d
+    e e d8. d16 c8 c4 c8 %10
+    c c a4 h r
+    a r r8 a f d
+    h'4 r r8 e f d
+    e4 c8 d h c h4
+    a r r2 %15
+    R1*43 %58
+    \mvTr d8.\fE^\tuttiE d16 d4 e8 d16 d e8 e16 e
+    e4 d d8 d d d %60
+    e4 e a,4. a8
+    h4. h8 c4. d8
+    h4 c8 c c4 h
+    c1\fermata \bar "|." %64 finis
+  }
+}
+
+GloriaTenoreLyrics = \lyricmode {
+  In ter -- ra %4
+  pax, in ter -- ra pax, %5
+
+  in ter -- ra %9
+  pax, ho -- mi -- ni -- bus bo -- nae %10
+  vo -- lun -- ta -- tis,
+  pax, in ter -- ra
+  pax ho -- mi -- ni --
+  bus bo -- nae vo -- lun --
+  ta -- tis. %15
+
+  Do -- mi -- ne, Do -- mi -- ne, Do -- mi -- ne %59
+  De -- us, De -- us, Rex coe -- %60
+  le -- stis, De -- us
+  Pa -- ter, De -- us
+  Pa -- ter o -- mni -- po --
+  tens. %64 finis
+}

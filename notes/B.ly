@@ -133,3 +133,76 @@ KyrieBassoLyrics = \lyricmode {
   le -- i -- son, e -- lei --
   son. %115 finis
 }
+
+GloriaBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoGloria
+    R1*3
+    r2 r8 \mvDl c'8\fE^\tuttiE c h
+    c h c a g4 r %5
+    R1*3
+    r2 r8 g h g
+    c c g8. g16 a4 e8 e %10
+    f f f4 e r
+    c r d r
+    gis,8 e' c a e' a d, g
+    c,4 f8 h, e a e4
+    a, r r2 %15
+    r4 a'4 g!4.( c8
+    f,[ e16 f] g8) f e4 e8 d16([ c)]
+    a'4 g8 fis g4 r
+    R1*5 %23
+    r2 r8 g([ a)] h
+    c b4 a8 r a([ h)] c %25
+    d c4 h8 r g4 f!8~
+    f e4 d c b8
+    a a'4 g f e8
+    d[ c] h!([ a)] g4 r
+    r8 g' a h c[ c, h h'] %30
+    a[ a, g g'] f[ f, e e']
+    d[ c16 h] c[ d e f] g8[ a16 h] c8[ a]
+    f[ e16 d] g8. g16 c,4 r
+    R1*25 %58
+    \mvTr g'8.\fE^\tuttiE g16 g4 c8 h16 h c8 c,16 c
+    g'4 g, g'8 a h g %60
+    c4 c, f4. d8
+    g4. e8 a4. f8
+    g4 g8 g g4. g8
+    c,1\fermata \bar "|." %64 finis
+  }
+}
+
+GloriaBassoLyrics = \lyricmode {
+  In ter -- ra %4
+  pax ho -- mi -- ni -- bus, %5
+
+  in ter -- ra %9
+  pax, ho -- mi -- ni -- bus bo -- nae %10
+  vo -- lun -- ta -- tis,
+  pax, pax,
+  et in ter -- ra pax ho -- mi -- ni --
+  bus bo -- nae vo -- lun --
+  ta -- tis. %15
+  Lau -- da --
+  mus te, be -- ne --
+  di -- ci -- mus te,
+
+  ad -- o -- %24
+  ra -- mus te, ad -- o -- %25
+  ra -- mus te, ad -- o --
+  ra -- _ _ _
+  _ _ _ _ _
+  _ mus te,
+  glo -- ri -- fi -- ca -- %30
+  _ _
+  _ _ _ _
+  _ _ mus te.
+
+  Do -- mi -- ne, Do -- mi -- ne, Do -- mi -- ne %59
+  De -- us, De -- us, Rex coe -- %60
+  le -- stis, De -- us
+  Pa -- ter, De -- us
+  Pa -- ter o -- mni -- po --
+  tens. %64 finis
+}

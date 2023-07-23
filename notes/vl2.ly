@@ -108,3 +108,70 @@ KyrieViolinoII = {
     g r r2\fermata \bar "|." %115 finis
   }
 }
+
+GloriaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGloria
+    \slurDashed r8 c'(\fE d e) r h( c d)
+    r c( d e) r g,( a h) \slurSolid
+    r a h c r f, g a
+    r g a h c4 r8 g'
+    e16 c d8 r c h16 g fis e d c h a %5
+    g8 h' c d r fis e d
+    r h a g r h a g
+    r g f! e r c' h a
+    r fis' e d r16 g fis g d8 d
+    e16 e d e h8 h c16 c h c g8 g %10
+    a c16 h a h c d e e d c h a gis fis?
+    e8 d c a f'16 e d8 r d'16 c
+    h a gis fis e8 c' h16 e, c'4 h8
+    h e a, a gis a4 gis8
+    a16 a g f e d c h a8 a' h, gis' %15
+    a,4 r r2
+    R1
+    r2 r8 g'4 f8
+    e d e f r a4 g8
+    f e f g r h4 a8 %20
+    gis fis gis a r c4 h8
+    a g a h r d4 c8
+    h c d c16 h a8 a a a
+    d, e d e d4 r
+    r r8 f'\pE f f, r4 %25
+    r r8 h h h, r d'
+    h c a h g a f g
+    r c, d e c d h! c
+    d d d c h16 a g8 r4
+    R1*3 %32
+    r2 r8 c'\fE d e
+    f f, e e' d d, c c'
+    h? h,? a a' d, e d4 %35
+    c r r2
+    R1
+    r2 r8 d'16 c h a g f!
+    e8 e' a a,16. g'32 fis8 a16 g fis e d c
+    h8 d g g,16. f'32 e8 c16 h a g fis e %40
+    d8 a' d d,16. c'32 h8 a16 g a4
+    g r r2
+    R1*2
+    r2 r8 h'16 a g fis e d! %45
+    c8 e a a,16. g'32 fis8 a16 g fis e d c
+    h8 fis' h h,16. a'32 g8 h, e e,16. d'!32
+    c8 c16 h a g fis e dis8 h'16. e,32 fis4
+    e r r8 e'16\pE d! c h a g
+    fis4 r r8 d'16 c h a g fis %50
+    e4 r r2
+    R1*2
+    r2 r8 d'16\fE c h a g f!
+    e8 g c c,16. h'32 a8 a'16 g fis e d c %55
+    h8 d g g,16. f'32 e8 c'16 h a g fis e
+    d8 a d d,16. c'32 h8 g'16 fis e d c h
+    a8 e' a a,16. g'32 fis4 r
+    g8. h,16 h4 c8 d c16 e32 d c16 c
+    c4 h h16 a h c d8 c16 h %60
+    c8. g16 g4 a4. f'8
+    h,16 a g4 g'8 c,16 h a4 a'8
+    h, a16 g c2 h4
+    c1\fermata \bar "|." %64 finis
+  }
+}
